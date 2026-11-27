@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# 生成的中间数据库（可用 backend/ingest.py 重建）
+db/*.db
+
+# 日志与临时产物
+*.log
+backend/server.log
+backend/shot_*.png
+backend/e2e_shot.png
+backend/dump*.html
+
+# 系统文件
+.DS_Store
+Thumbs.db
